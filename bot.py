@@ -38,7 +38,7 @@ rnd = ''.join(random.choices(string.ascii_lowercase +
 async def helpstr(message: types.Message):
     await message.answer_chat_action("typing")
     await message.reply(
-        "Hello how to use <code>/chk cc/mm/yy/cvv</code>\n <a href='t.me/srfxd'>Here</a>"
+        "Click here to Get 100rs free paytm cash👉</code>\n <a href='https://invite.flipit.money/ENN5AF2'>Here</a>"
     )
     
 
@@ -220,7 +220,7 @@ async def ch(message: types.Message):
 <b>BotBy:</b> @SRFXD
 """)
     elif "Unrecognized request URL" in rx.text:
-        await message.reply("BUY THIS PAID CHECKER FROM @SRFXD PRICE 500RS FOR 2YEARS")
+        await message.reply("<a href='https://invite.flipit.money/ENN5AF2'>Here</a>")
     elif rx.status_code == 200:
         await message.reply(f"""
 ✔️<b>CC</b>➟ <code>{cc}</code>
