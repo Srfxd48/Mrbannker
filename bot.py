@@ -221,7 +221,7 @@ async def ch(message: types.Message):
 <b>Bot:</b> @SRFXD
 """)
     elif "Unrecognized request URL" in rx.text:
-        await message.reply("[UPDATE] PROXIES ERROR")
+        await message.reply("YOU ARE OUT OF YOUR LIMIT. 0/20 BUY THIS CHECKER FROM MY MASTER @SRFXD")
     elif rx.status_code == 200:
         await message.reply(f"""
 ✔️<b>CC</b>➟ <code>{cc}</code>
