@@ -221,7 +221,15 @@ async def ch(message: types.Message):
 <b>Bot:</b> @SRFXD
 """)
     elif "Unrecognized request URL" in rx.text:
-        await message.reply("YOU ARE OUT OF YOUR LIMIT. 0/20 BUY THIS CHECKER FROM MY MASTER @SRFXD")
+        await message.reply("📝 Premium Plan List:
+
+• 1 Month access -> ₹450 / 6$
+• 15 Days access -> ₹270 / 3.5$
+• 7 Days access -> ₹200 / 2.5$
+
+🏦 Payment Accepted Via: Paypal, Coinbase, BTC, UPI, PayTm, Binance, UstdTrc20
+
+✅ Message @srfxd To Purchase Subscription.")
     elif rx.status_code == 200:
         await message.reply(f"""
 ✔️<b>CC</b>➟ <code>{cc}</code>
