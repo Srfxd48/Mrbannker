@@ -23,10 +23,10 @@ dp = Dispatcher(bot)
 ###USE YOUR ROTATING PROXY### NEED HQ PROXIES ELSE WONT WORK UPDATE THIS FILED
 r = requests.get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=all&timeout=10000&country=all&ssl=all&anonymity=all&simplified=true').text
 res = r.partition('\n')[0]
-proxy = {"all": f"all://{res}"}
+proxy = {"all": f"http://{res}"}
 session = requests.session()
 
-session.proxies = proxy #UNCOMMENT IT AFTER PROXIES
+session.proxies = proxy
 
 #random str GEN FOR EMAIL
 N = 10
